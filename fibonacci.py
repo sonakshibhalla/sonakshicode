@@ -32,7 +32,13 @@ class newFibonacci(): # ethan commit, fibonacci with OOP
         print(z, end = " ")
     print()
       
-
+def testerf(): # tester for OOP fibonacci
+  try:
+    y = int(input("Enter to what term you want the fibonacci sequence to go to: "))
+    f = newFibonacci()
+    print(f(y))
+  except:
+    print("Something went wrong")
 
 
 if __name__ == "__main__":
