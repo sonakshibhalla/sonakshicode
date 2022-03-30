@@ -33,8 +33,8 @@ functions_menu = [
     ["Factors Class", factorsclass.factorsclass],
     ["Palindrome", palindrome.palindrome],
     ["Factorial", factorial.factorial],
-    ["Fibonacci", fibonacci.fibonacci]
-    
+    ["Fibonacci", fibonacci.fibonacci],
+    ["Fibonacci OOP", fibonacci.testerf],
 ]
 
 

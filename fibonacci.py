@@ -15,13 +15,16 @@ def fibonacci():
         for i in range(num):
             print(fib(i))
 
-def newFibonacci(): # ethan commit, fibonacci with OOP
+class newFibonacci(): # ethan commit, fibonacci with OOP
   def __init__(self):
-    print("0", end=" ") # 0 will always start the sequence
+    print("1", end=" ") # 0 will always start the sequence
   def __call__(self, n):
-    for i in range(1, n):
-      something
-      return 
+    x = 0
+    y = 1
+    z = 0
+    fs = []
+
+
 
 if __name__ == "__main__":
     fibonacci()
