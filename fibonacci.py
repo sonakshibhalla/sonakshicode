@@ -20,6 +20,7 @@ def newFibonacci(): # ethan commit, fibonacci with OOP
     print("0", end=" ") # 0 will always start the sequence
   def __call__(self, n):
     for i in range(1, n):
+      something
       return 
 
 if __name__ == "__main__":
