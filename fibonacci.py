@@ -36,7 +36,7 @@ def testerf(): # tester for OOP fibonacci
   try:
     y = int(input("Enter to what term you want the fibonacci sequence to go to: "))
     f = newFibonacci()
-    print(f(y))
+    f(y)
   except:
     print("Something went wrong")
 
