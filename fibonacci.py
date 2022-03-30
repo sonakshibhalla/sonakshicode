@@ -29,6 +29,9 @@ class newFibonacci(): # ethan commit, fibonacci with OOP
         y = z
         i += 1
         fs.append(z)
+        print(z, end = " ")
+    print()
+      
 
 
 
