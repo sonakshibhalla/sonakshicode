@@ -23,6 +23,12 @@ class newFibonacci(): # ethan commit, fibonacci with OOP
     y = 1
     z = 0
     fs = []
+    for i in range(n-1):
+        z = x + y
+        x = y
+        y = z
+        i += 1
+        fs.append(z)
 
 
 
