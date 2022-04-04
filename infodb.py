@@ -33,14 +33,14 @@ def information():
           recursive_loop(n + 1)
       return 
   
-  def tester():
+  def print():
       print("For loop")
       for_loop()
       print("While loop")
       while_loop(0)
       print("Recursive loop")
       recursive_loop(0)
-  tester()
+  print()
 
 if __name__ == "__main__":
     information()

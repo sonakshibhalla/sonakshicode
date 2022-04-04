@@ -32,7 +32,7 @@ functions_menu = [
     ["Factors Imperative", factorsimp.factorsimp],
     ["Factors Class", factorsclass.factorsclass],
     ["Palindrome", palindrome.palindrome],
-    ["Factorial", factorial.factorial],
+    ["Factorial", factorial.answer],
     ["Fibonacci", fibonacci.fibonacci],
     ["Fibonacci OOP", fibonacci.testerf],
 ]
